@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="VWFCalc.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ColorNormalText" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Black</Value>
+    </Setting>
+    <Setting Name="ColorCritText" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">217, 168, 0</Value>
+    </Setting>
+    <Setting Name="ColorUeberlangText" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="ColorBackground" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">en</Value>
+    </Setting>
+    <Setting Name="IgnoreSpaceAtEnd" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IgnoreCharBegins" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[ &gt;</Value>
+    </Setting>
+    <Setting Name="ColorMinText" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LightPink</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

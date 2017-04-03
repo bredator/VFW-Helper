@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Anzeigen_DE" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="Anzeigen_EN" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="applications_engineering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\applications-engineering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beenden_DE" xml:space="preserve">
+    <value>Beenden</value>
+  </data>
+  <data name="Beenden_EN" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="CritZeilenlaenge_DE" xml:space="preserve">
+    <value>Kritische Zeilenlänge:</value>
+  </data>
+  <data name="CritZeilenlaenge_EN" xml:space="preserve">
+    <value>Critical length of line:</value>
+  </data>
+  <data name="DSC01074" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DSC01074.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditorLoad_DE" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="EditorLoad_EN" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="EditorNew_DE" xml:space="preserve">
+    <value>Neues Table</value>
+  </data>
+  <data name="EditorNew_EN" xml:space="preserve">
+    <value>New Table</value>
+  </data>
+  <data name="EditorSave_DE" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="EditorSave_EN" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Info_DE" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Info_EN" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="KonfigBackcol_DE" xml:space="preserve">
+    <value>Hintergrundfarbe Textfeld</value>
+  </data>
+  <data name="KonfigBackcol_EN" xml:space="preserve">
+    <value>Color background</value>
+  </data>
+  <data name="KonfigCritText_DE" xml:space="preserve">
+    <value>Textfarbe kritische Länge</value>
+  </data>
+  <data name="KonfigCritText_EN" xml:space="preserve">
+    <value>Color critical length</value>
+  </data>
+  <data name="KonfigFarben_DE" xml:space="preserve">
+    <value>Farben</value>
+  </data>
+  <data name="KonfigFarben_EN" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="KonfigIgnoreSpace_DE" xml:space="preserve">
+    <value>Ingoriere Leerzeichen an Zeilenende</value>
+  </data>
+  <data name="KonfigIgnoreSpace_EN" xml:space="preserve">
+    <value>Ignore space at end of line</value>
+  </data>
+  <data name="KonfigIgnoreZeilenbeginn_DE" xml:space="preserve">
+    <value>Zu ignorierende Zeilenanfänge:</value>
+  </data>
+  <data name="KonfigIgnoreZeilenbeginn_EN" xml:space="preserve">
+    <value>Ignore lines starting with following chars:</value>
+  </data>
+  <data name="KonfigMaxText_DE" xml:space="preserve">
+    <value>Textfarbe Überlänge</value>
+  </data>
+  <data name="KonfigMaxText_EN" xml:space="preserve">
+    <value>Color overlong length</value>
+  </data>
+  <data name="KonfigNormText_DE" xml:space="preserve">
+    <value>Textfarbe normaler Text</value>
+  </data>
+  <data name="KonfigNormText_EN" xml:space="preserve">
+    <value>Color normal text</value>
+  </data>
+  <data name="KonfigSonstiges_DE" xml:space="preserve">
+    <value>Sonstiges</value>
+  </data>
+  <data name="KonfigSonstiges_EN" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="Konfiguration_DE" xml:space="preserve">
+    <value>Konfiguration</value>
+  </data>
+  <data name="Konfiguration_EN" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="MaxZeilenlaenge_DE" xml:space="preserve">
+    <value>Maximale Zeilenlänge in Pixeln:</value>
+  </data>
+  <data name="MaxZeilenlaenge_EN" xml:space="preserve">
+    <value>Maximum pixelcount per line:</value>
+  </data>
+  <data name="PixelBetween_DE" xml:space="preserve">
+    <value>Pixel zwischen Buchstaben:</value>
+  </data>
+  <data name="PixelBetween_EN" xml:space="preserve">
+    <value>Pixels between characters:</value>
+  </data>
+  <data name="PixelzahlMarkiert_DE" xml:space="preserve">
+    <value>Pixelzahl markierter Text:</value>
+  </data>
+  <data name="PixelzahlMarkiert_EN" xml:space="preserve">
+    <value>Pixelcount selected text:</value>
+  </data>
+  <data name="Sprache_DE" xml:space="preserve">
+    <value>Sprache:</value>
+  </data>
+  <data name="Sprache_EN" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="TableEditor_DE" xml:space="preserve">
+    <value>Table-Editor</value>
+  </data>
+  <data name="TableEditor_EN" xml:space="preserve">
+    <value>Table-Editor</value>
+  </data>
+  <data name="TableLaden_DE" xml:space="preserve">
+    <value>Table laden</value>
+  </data>
+  <data name="TableLaden_EN" xml:space="preserve">
+    <value>Load Table</value>
+  </data>
+  <data name="TextdateiLaden_DE" xml:space="preserve">
+    <value>Textdatei laden</value>
+  </data>
+  <data name="TextdateiLaden_EN" xml:space="preserve">
+    <value>Load Textfile</value>
+  </data>
+  <data name="UebrigePixel_DE" xml:space="preserve">
+    <value>Übrige Pixel:</value>
+  </data>
+  <data name="UebrigePixel_EN" xml:space="preserve">
+    <value>Pixels left:</value>
+  </data>
+  <data name="TableLadenFehler_DE" xml:space="preserve">
+    <value>Fehler beim Einlesen des Tables. Ist die geladene Datei ein korrektes Table?</value>
+  </data>
+  <data name="TableLadenFehler_EN" xml:space="preserve">
+    <value>Error while loading table. Is the file a correct table file?</value>
+  </data>
+  <data name="Datei_DE" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="Datei_EN" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="go_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="go_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go-up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjektLaden_DE" xml:space="preserve">
+    <value>Projekt öffnen</value>
+  </data>
+  <data name="ProjektLaden_EN" xml:space="preserve">
+    <value>Open project</value>
+  </data>
+  <data name="ProjektSpeichernAls_DE" xml:space="preserve">
+    <value>Projekt speichern unter...</value>
+  </data>
+  <data name="ProjektSpeichernAls_EN" xml:space="preserve">
+    <value>Save project as...</value>
+  </data>
+  <data name="ProjektSpeichern_DE" xml:space="preserve">
+    <value>Projekt speichern</value>
+  </data>
+  <data name="ProjektSpeichern_EN" xml:space="preserve">
+    <value>Save project</value>
+  </data>
+  <data name="Werkzeuge_DE" xml:space="preserve">
+    <value>Werkzeuge</value>
+  </data>
+  <data name="Werkzeuge_EN" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="IgnoriereZeichengruppen_DE" xml:space="preserve">
+    <value>Bei Textlängenermittlung zu ignorierende Zeichengruppen (eine pro Zeile):</value>
+  </data>
+  <data name="IgnoriereZeichengruppen_EN" xml:space="preserve">
+    <value>Ignore following groups while getting textlength (one per line):</value>
+  </data>
+  <data name="KonfigMinText_DE" xml:space="preserve">
+    <value>Textfarbe Unterlänge</value>
+  </data>
+  <data name="KonfigMinText_EN" xml:space="preserve">
+    <value>Textcolor unterlength</value>
+  </data>
+  <data name="LeerzeilenZeigen_DE" xml:space="preserve">
+    <value>Leerzeilen einblenden:</value>
+  </data>
+  <data name="LeerzeilenZeigen_EN" xml:space="preserve">
+    <value>Show empty lines:</value>
+  </data>
+  <data name="MinZeilenlaenge_DE" xml:space="preserve">
+    <value>Minimale Zeilenlänge:</value>
+  </data>
+  <data name="MinZeilenlaenge_EN" xml:space="preserve">
+    <value>Minimum pixelcount per line:</value>
+  </data>
+  <data name="SpeichereTextdatei_DE" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="SpeichereTextdatei_EN" xml:space="preserve">
+    <value>Save</value>
+  </data>
+</root>
