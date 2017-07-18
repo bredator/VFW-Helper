@@ -529,7 +529,17 @@ namespace VWFCalc
 
         private string ReplaceXmlChars(string str)
         {
-            str = str.Replace("&", "&#38;");
+            
+			//Sonderzeichen
+			str = str.Replace("&", "&#38;");
+			str = str.Replace("<", "&#60;");
+            str = str.Replace(">", "&#62;");
+            str = str.Replace("µ", "&#181;");
+            str = str.Replace("'", "&#8242;");
+            str = str.Replace('"'.ToString(), "&#34;");
+			str = str.Replace("§", "&#167;");
+			
+			//Umlaute(Deutsch)
             str = str.Replace("Ä", "&#196;");
             str = str.Replace("ä", "&#228;");
             str = str.Replace("Ö", "&#214;");
@@ -537,17 +547,27 @@ namespace VWFCalc
             str = str.Replace("Ü", "&#220;");
             str = str.Replace("ü", "&#252;");
             str = str.Replace("ß", "&#223;");
-            str = str.Replace("<", "&#60;");
-            str = str.Replace(">", "&#62;");
-            str = str.Replace("µ", "&#181;");
-            str = str.Replace("'", "&#8242;");
-            str = str.Replace('"'.ToString(), "&#34;");
+            
+			//Währungen
+			str = str.Replace("€", "&#8364;");
+			str = str.Replace("£", "&#163;");
+			str = str.Replace("¥", "&#165;");
+			
             return str;
         }
 
         private string ReReplaceXmlChars(string str)
         {
+			//Sonderzeichen
             str = str.Replace("&#38;", "&");
+			str = str.Replace("&#60;", "<");
+            str = str.Replace("&#62;", ">");
+            str = str.Replace("&#181;", "µ");
+            str = str.Replace("&#8242;", "'");
+            str = str.Replace("&#34;", '"'.ToString());
+			str = str.Replace("&#167;", "§");
+			
+			//Umlaute(Deutsch)
             str = str.Replace("&#196;", "Ä");
             str = str.Replace("&#228;", "ä");
             str = str.Replace("&#214;", "Ö");
@@ -555,11 +575,12 @@ namespace VWFCalc
             str = str.Replace("&#220;", "Ü");
             str = str.Replace("&#252;", "ü");
             str = str.Replace("&#223;", "ß");
-            str = str.Replace("&#60;", "<");
-            str = str.Replace("&#62;", ">");
-            str = str.Replace("&#181;", "µ");
-            str = str.Replace("&#8242;", "'");
-            str = str.Replace("&#34;", '"'.ToString());
+
+			//Währungen
+			str = str.Replace("&#8364;", "€");
+			str = str.Replace("&#163;", "£");
+			str = str.Replace("&#165;", "¥");
+			
             return str;
         }
     }
