@@ -528,8 +528,7 @@ namespace VWFCalc
         }
 
         private string ReplaceXmlChars(string str)
-        {
-            
+        {            
 			//Sonderzeichen
 			str = str.Replace("&", "&#38;");
 			str = str.Replace("<", "&#60;");
